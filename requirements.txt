@@ -1,6 +1,7 @@
 torch==1.0
 torchvision
-tensorflow==1.12
+tensorflow==2.5.1
 tensorboardX
 gym
 gym[atari]
+pillow>=8.3.2 # not directly required, pinned by Snyk to avoid a vulnerability
