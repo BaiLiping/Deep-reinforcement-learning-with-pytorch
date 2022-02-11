@@ -4,3 +4,4 @@ tensorflow==1.12
 tensorboardX
 gym
 gym[atari]
+pillow>=9.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
