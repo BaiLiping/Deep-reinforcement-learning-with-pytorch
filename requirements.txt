@@ -5,3 +5,4 @@ tensorboardX
 gym
 gym[atari]
 protobuf>=3.20.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
